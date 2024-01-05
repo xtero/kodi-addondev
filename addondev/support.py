@@ -189,7 +189,7 @@ class Repo(object):
     """Check the official kodi repositories for available addons."""
 
     # Kodi version code names for repository linking
-    repo = "krypton"
+    repo = "nexus"
 
     def __init__(self):
         self.repo_url = "http://mirrors.kodi.tv/addons/{}/{}".format(self.repo, "{}")
